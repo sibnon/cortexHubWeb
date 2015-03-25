@@ -1,0 +1,317 @@
+﻿.header {
+    position:relative;
+    width:1865px;
+    height:80px;
+    top:3px;
+    left:40px;
+    border-radius:5px;
+}
+    .header #search {
+        position:relative;
+        top:5px;
+        width:400px;
+        left:1460px;
+        height:25px;
+    }
+.logoheader {
+    position:relative;
+    width:1400px;
+    height:150px;
+    top:10px;
+    left:300px;
+    background-color:silver;
+}
+.logoheader img {
+    position:relative;
+    left:600px;
+}
+span img {
+    width:960px;
+}
+.nav {
+	overflow: hidden;
+    top:60px;
+    height:66px;
+    background-color:white;
+}
+    .nav ul li a {
+        text-decoration:none;
+        font-family: georgia;
+	    font-weight: normal;
+	    font-style: italic;
+	    font-size: 16px;
+	    margin-bottom: 5px;
+	    line-height: 16px;
+    }
+    .nav li:hover {
+        background: silver;
+	    border-left: 5px solid #000;
+    }
+.logoheader ul li {
+    float:left;
+    list-style:none;
+    width: 120px; border-left: 5px solid #666;
+	float: left;
+	cursor: pointer;
+	list-style-type: none;
+	padding: 10px 50px 10px 15px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;   
+}
+
+
+
+
+/**{
+  margin:0;
+  padding:0;
+}*/
+#slide{
+  position:relative;
+  top:50px;
+  width: 960px;
+  height: 350px;
+  overflow:hidden;
+  margin: 30px auto;
+  box-shadow: 0 8px 6px -6px rgba(0,0,0,1);
+}
+#slide div{
+  display:block;
+  width:0;
+  float: left;
+  -webkit-transition: all 0.75s;
+  -moz-transition: all 0.75s;
+  -o-transition:all 0.75s;
+  transition: all 0.75s;
+}
+
+button.prev, button.next {
+  position: absolute;
+  z-index: 999;
+  display: block;
+  padding:0 10px;
+  width: auto;
+  height:350px;
+  background: rgba(0,0,0,0);
+  color: #ffffff;
+  font-size:26px;
+  cursor: pointer;
+  border:none;
+  outline:none;
+}
+button.prev:hover, button.next:hover {
+  background: rgba(0,0,0,0.8);
+}
+button.next {
+    margin-left: 926px;
+}
+.middle {
+  position:relative;
+  top:50px;
+  width: 960px;
+  height: 150px;
+  /*background-color:black;*/
+  left:470px;
+  /*box-shadow: -6px 8px 6px 8px rgba(1,0,0,1);*/
+}
+#tabula {
+    position:relative;
+    left:150px;
+}
+    #tabula tr {
+        position:relative;
+        width:40px;
+    }
+#tabula tr td {
+   padding-right:100px;
+   position:relative;
+   right:250px;
+   width:20px;
+
+}
+    .middle #mission {
+       width:315px;
+       height:100px;
+       left:30px;
+       background-color:silver;
+       box-shadow: 0px 8px 6px -6px rgba(0,0,0,1);
+    }
+    .middle #vision {
+          background-color:silver;
+          width:315px;
+          height:100px;
+          left:30px;
+          box-shadow: 0px 8px 6px -6px rgba(0,0,0,1);
+    }
+    .middle #values {
+           background-color:silver;
+           width:315px;
+           height:100px;
+           left:30px;
+           box-shadow: 0px 8px 6px -6px rgba(0,0,0,1);
+    }
+
+    .middle #mission h3 {
+        position:relative;
+        top:35px;
+        left:130px;
+        font-size:25px;
+        font-family:'Century Gothic';
+    }
+    .middle #vision h3 {
+        position:relative;
+        top:35px;
+        left:130px;
+        font-size:25px;
+        font-family:'Century Gothic';
+    }
+    .middle #values h3 {
+        position:relative;
+        top:35px;
+        left:130px;
+        font-size:25px;
+        font-family:'Century Gothic';
+    }
+
+   
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Orbitron);
+.middle #mission:hover {
+	position: relative;
+	font-family: Orbitron, sans-serif;
+	max-width: 500px;
+	line-height: 0;
+    max-width: 100%;
+}
+.middle #vision:hover {
+    position: relative;
+	font-family: Orbitron, sans-serif;
+	max-width: 500px;
+	line-height: 0;
+    max-width: 100%;
+}
+.middle #values:hover {
+    position: relative;
+	font-family: Orbitron, sans-serif;
+	max-width: 500px;
+	line-height: 0;
+    max-width: 100%;
+}
+
+
+.middle #mission p{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	line-height: 1;
+	font-weight: 100;
+    top:5px;
+	box-sizing: border-box;
+	font-size: 1em;
+	transition: 1s linear;
+	color: black;
+	padding: 10%;
+	opacity: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+.middle #vision p{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	line-height: 1;
+	font-weight: 100;
+    top:10px;
+	box-sizing: border-box;
+	font-size: 1em;
+	z-index: 2;
+	transition: 1s linear;
+	color: black;
+	padding: 10%;
+	opacity: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+.middle #values p{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	line-height: 1;
+	font-weight: 100;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 1em;
+	z-index: 2;
+	transition: 1s linear;
+	color: black;
+	padding: 10%;
+	opacity: 0;
+  /*-webkit-touch-callout: none;
+  -webkit-user-select: none;*/
+}
+
+.middle #vision p:hover { opacity: 1; }
+.middle #mission p:hover { opacity: 1; }
+.middle #values p:hover { opacity: 1; }
+
+.middle #vision p:nth-child(odd):hover { left: 0; z-index: 9; }
+.middle #mission p:nth-child(odd):hover { left: 0; z-index: 9; }
+.middle #values p:nth-child(odd):hover { left: 0; z-index: 9; }
+
+	 
+.middle #vision p:nth-child(2) {  /*top panel*/  
+	top: -20%;
+	left: 0;
+	background: #336699; 
+	}   
+ 
+.middle #mission p:nth-child(2) { /* top panel */ 
+	top: -20%;
+	left: 0;
+	background: #336699; 
+	}   
+ 
+.middle #values p:nth-child(2) { /* top panel */ 
+	top: -20%;
+	left: 0;
+	background: #336699; 
+	}
+.footer {
+    position:relative;
+    top:600px;
+    height:145px;
+    left:20px;
+    width:1865px;
+    border-radius:5px;
+}
+    .footer .social {
+        position:relative;
+        top:5px;
+        height:50px;
+        left:850px;
+        width:170px;
+        border-radius:5px;
+    }
+
+.footer .contact {
+        background: #003366; 
+        position:relative;
+        top:25px;
+        height:50px;
+        right:22px;
+        width:1900px;
+        border-radius:5px;
+}
+    .footer .contact p {
+        position:relative;
+        top:15px;
+        text-align:center;
+        color:white;
+    }
+
+
+

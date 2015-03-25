@@ -1,0 +1,177 @@
+﻿body {
+    height:700px;
+}
+.header #search{
+    font-family:'Century Gothic';
+}
+.middle .overview {
+    top:30px;
+}
+.middle .fonder tr td #andile {
+    position:relative;
+    top:30px;
+    left:500px;
+    height:200px;
+    width:350px;
+}
+.middle .fonder tr td #andi {
+    position:relative;
+    top:30px;
+    left:500px;
+    height:200px;
+    width:350px;
+}
+.middle .fonder td tr #fonderHeader {
+    position:relative;
+    left:400px;
+}
+
+.fonder tr td p{
+    position:relative;
+    left:500px;
+    top:20px;
+    font-family:'Century Gothic';
+    font-size:15px;
+
+}
+.overview tr td p {
+    font-family:'Century Gothic';
+    font-size:15px;
+}
+
+.middle .overview tr td #overview {
+    font-family:'Century Gothic';
+    font-size:16px;
+    color:#003366;
+}
+.overview {
+    position:relative;
+    left:500px;
+    width:700px;
+    top:50px;
+}
+.strategy {
+    position:relative;
+    left:500px;
+    width:700px;
+    bottom:2px;
+}
+.strategy tr td #strategy {
+    font-family:'Century Gothic';
+    font-size:16px;
+    color:#003366;
+}
+.strategy tr td ul li {
+    font-family:'Century Gothic';
+    font-size:16px;
+}
+.middle #first {
+    position:relative;
+    top:20px;
+    width:900px;
+}
+.middle #second {
+    position:relative;
+    bottom:140px;
+    width:900px;
+}
+.middle #third {
+    position:relative;
+    bottom:200px;
+    width:900px;
+}
+
+.header {
+    position:relative;
+    width:1840px;
+    height:80px;
+    top:3px;
+    left:40px;
+    border-radius:5px;
+}
+    .header #search {
+        position:relative;
+        top:5px;
+        width:400px;
+        left:1460px;
+        height:25px;
+    }
+.logoheader {
+    position:relative;
+    width:1400px;
+    height:150px;
+    top:10px;
+    left:300px;
+    background-color:silver;
+}
+.logoheader img {
+    position:relative;
+    left:600px;
+}
+span img {
+    width:960px;
+}
+.nav {
+	overflow: hidden;
+    top:60px;
+    height:66px;
+    background-color:white;
+}
+    .nav ul li a {
+        text-decoration:none;
+        font-family: georgia;
+	    font-weight: normal;
+	    font-style: italic;
+	    font-size: 16px;
+	    margin-bottom: 5px;
+	    line-height: 16px;
+    }
+    .nav li:hover {
+        background: silver;
+	    border-left: 5px solid #000;
+    }
+.logoheader ul li {
+    float:left;
+    list-style:none;
+    width: 120px; border-left: 5px solid #666;
+	float: left;
+	cursor: pointer;
+	list-style-type: none;
+	padding: 10px 50px 10px 15px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;   
+}
+
+.footer {
+    position:relative;
+    bottom:70px;
+    height:120px;
+    left:40px;
+    width:1870px;
+    border-radius:5px;
+}
+    .footer .social {
+        position:relative;
+        top:39px;
+        height:50px;
+        left:820px;
+        width:170px;
+        border-radius:5px;
+    }
+
+.footer .contact {
+        background: #003366; 
+        position:relative;
+        top:25px;
+        height:50px;
+        right:45px;
+        width:1915px;
+        border-radius:5px;
+}
+    .footer .contact p {
+        position:relative;
+        top:15px;
+        text-align:center;
+        color:white;
+    }
